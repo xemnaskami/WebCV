@@ -1,0 +1,15 @@
+body{
+    font-size: 1.3rem;
+}
+.full-width{
+    min-width: 100%;
+}
+
+hr{
+    margin: 50px;
+}
+
+.justified-text {
+    text-align: justify;
+    text-justify: inter-word;
+}

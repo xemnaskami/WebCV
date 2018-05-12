@@ -1,0 +1,38 @@
+{
+  "name": "webcv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "semantic-ui": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node node_modules/web-app-start/scripts/dev",
+    "major": "node node_modules/web-app-start/scripts/build --major",
+    "minor": "node node_modules/web-app-start/scripts/build --minor",
+    "patch": "node node_modules/web-app-start/scripts/build --patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xemnaskami/WebCV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xemnaskami/WebCV/issues"
+  },
+  "homepage": "https://github.com/xemnaskami/WebCV#readme",
+  "babel": {
+    "presets": [
+      [
+        "latest",
+        {
+          "es2015": {
+            "modules": false
+          }
+        }
+      ]
+    ]
+  }
+}

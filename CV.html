@@ -59,7 +59,7 @@
 
         <hr/>
 
-        <div class="">
+        <div class="ui container">
             <div id="formation"></div>
             <p class="ui header center aligned">
                 Formation
@@ -69,8 +69,8 @@
                     <div class="content">
                         <div class="ui items">
                             <div class="item">
-                                <div class="ui tiny image">
-                                    <img class="tiny image" src="images/DCU_logo.jpg"/>
+                                <div class="ui small image middle centered grid">
+                                    <img class="tiny image sixteen wide column" src="images/DCU_logo.jpg"/>
                                 </div>
                                 <hr/>
                                 <div class="content" style="padding: 1rem;">
@@ -89,8 +89,8 @@
                     <div class="content">
                         <div class="ui items">
                             <div class="item">
-                                <div class="ui tiny image">
-                                    <img class="tiny image" src="images/Epitech_logo.jpg"/>
+                                <div class="ui small image middle centered grid">
+                                    <img class="tiny image sixteen wide column" src="images/Epitech_logo.jpg"/>
                                 </div>
                                 <hr/>
                                 <div class="content" style="padding: 1rem;">
@@ -100,42 +100,34 @@
                                     <i>Paris - France</i>
                                     <br/>
                                     2014 - 2019
+                                    <br/>
+                                    <b>Diplôme d'Expert en technologie de l'information - Niveau 1</b>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-<!--                <div class="ui segment">
-                    <img class="ui small image" src="images/Epitech_logo.png"/>
-                    <p>
-                        Epitech - École supérieure d'informatique privée reconnue par l'État
-                    </p>
-                    <p>
-                        Paris - France
-                    </p>
-                    <p>
-                        2014 - 2019
-                    </p>
-                    <p>
-                        Expert en technologies de l'information
-                    </p>
+                <div class="ui card full-width">
+                    <div class="content">
+                        <div class="ui items">
+                            <div class="item">
+                                <div class="ui small image middle centered grid">
+                                    <img class="tiny image sixteen wide column" src="images/assomption_logo.png"/>
+                                </div>
+                                <hr/>
+                                <div class="content" style="padding: 1rem;">
+                                    <b>Lycée Jean-Marie de la Mennais</b>
+                                    <br/>
+                                    <i>Retiers - France</i>
+                                    <br/>
+                                    2010 - 2014
+                                    <br/>
+                                    <b>Baccalauréat scientifique spécialité mathématiques</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="ui segment">
-                    <img class="ui small image" src="images/assomp-logo.jpg"/>
-                    <p>
-                        Lycée Jean-Marie de la Mennais
-                    </p>
-                    <p>
-                        Retiers - France
-                    </p>
-                    <p>
-                        2010 - 2014
-                    </p>
-                    <p>
-                        Baccalauréat scientifique spécialité mathématiques
-                    </p>
-                </div>
-                -->
             </div>
         </div>
 
@@ -147,53 +139,110 @@
                 Compétences
             </p>
             <div class="content">
-                <div class="ui segments">
-                    <div class="ui segment">
-                        <div class="ui middle aligned grid">
-                            <div class="ui two wide column">
-                                <img src="images/bullshit.jpg" class="ui tiny image">
-                            </div>
-                            <div class="ui three wide column">
-                                <p class="ui header">
-                                    Bullshit
-                                </p>
-                            </div>
-                            <div class="ui ten wide column">
-                                <div class="ui indicating progress my-bar" data-value="5" data-total="5">
+                <table class="ui table">
+                    <thead>
+                        <tr>
+                            <th colspan="3">
+                                Dévelopement
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="collapsing">
+                                <img class="ui tiny image" src="images/cpp.png"/>
+                            </td>
+                            <td class="collapsing">
+                                <b>C/C++</b>
+                            </td>
+                            <td>
+                                <div class="ui indicating progress my-bar" data-value="4" data-total="5">
                                     <div class="bar"></div>
-                                    <div class="label">5 / 5</div>
 
                                 </div>
-                            </div>
-                            <div class="ui one wide column">
-
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="ui segment">
-                        <div class="ui middle aligned grid">
-                            <div class="ui two wide column">
-                                <img src="images/bullshit2.png" class="ui tiny image">
-                            </div>
-                            <div class="ui three wide column">
-                                <p class="ui header">
-                                    Bullshit
-                                </p>
-                            </div>
-                            <div class="ui ten wide column">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="collapsing">
+                                <img class="ui tiny image" src="images/py.png"/>
+                            </td>
+                            <td class="collapsing">
+                                <b>Python</b>
+                            </td>
+                            <td>
+                                <div class="ui indicating progress my-bar" data-value="4" data-total="5">
+                                    <div class="bar"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="collapsing">
+                                <img class="ui tiny image" src="images/webStack.png"/>
+                            </td>
+                            <td class="collapsing">
+                                <b>FrontEnd</b>
+                            </td>
+                            <td>
                                 <div class="ui indicating progress my-bar" data-value="3" data-total="5">
                                     <div class="bar"></div>
-                                    <div class="label">3 / 5</div>
-
                                 </div>
-                            </div>
-                            <div class="ui one wide column">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="collapsing">
+                                <img class="ui tiny image" src="images/react_logo.svg"/>
+                            </td>
+                            <td class="collapsing">
+                                <b>React Native</b>
+                            </td>
+                            <td>
+                                <div class="ui indicating progress my-bar" data-value="4" data-total="5">
+                                    <div class="bar"></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="ui table">
+                    <thead>
+                    <tr>
+                        <th colspan="3">
+                            Langues
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="collapsing">
+                            <img class="ui tiny image" src="images/flag-round-fr.png"/>
+                        </td>
+                        <td class="collapsing">
+                            <b>Français</b>
+                        </td>
+                        <td>
+                            <div class="ui indicating progress my-bar" data-value="5" data-total="5">
+                                <div class="bar"></div>
 
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="collapsing">
+                            <img class="ui tiny image" src="images/uk.jpg"/>
+                        </td>
+                        <td class="collapsing">
+                            <b>Anglais</b>
+                        </td>
+                        <td>
+                            <div class="ui indicating progress my-bar" data-value="4" data-total="5">
+                                <div class="bar"></div>
+
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
             </div>
         </div>
     </div>
@@ -248,5 +297,6 @@
                 }
             }
         });
+
 
 </script>

@@ -1,0 +1,9 @@
+# Exclude node.js modules
+node_modules/
+
+# Exclude log files
+*.log*
+
+# Exclude system files
+.DS_Store
+.idea

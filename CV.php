@@ -66,63 +66,7 @@
                 Formation
             </p>
             <div class="ui container">
-                <div class="ui card full-width">
-                        <div class="ui items">
-                            <div class="item">
-                                <div class="ui small image middle centered grid">
-                                    <img class="tiny image sixteen wide column" src="images/DCU_logo.jpg"/>
-                                </div>
-                                <hr/>
-                                <div class="content" style="padding: 1rem;">
-                                    <b>Dublin City University</b>
-                                    <i> - Study abroad program</i>
-                                    <br/>
-                                    <i>Dublin - Irlande</i>
-                                    <br/>
-                                    2017 - 2018
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="ui card full-width">
-                        <div class="ui items">
-                            <div class="item">
-                                <div class="ui small image middle centered grid">
-                                    <img class="tiny image sixteen wide column" src="images/Epitech_logo.jpg"/>
-                                </div>
-                                <hr/>
-                                <div class="content" style="padding: 1rem;">
-                                    <b>Epitech</b>
-                                    <i> - École supérieure d'informatique</i>
-                                    <br/>
-                                    <i>Paris - France</i>
-                                    <br/>
-                                    2014 - 2019
-                                    <br/>
-                                    <b>Diplôme d'Expert en technologie de l'information - Niveau 1</b>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="ui card full-width">
-                        <div class="ui items">
-                            <div class="item">
-                                <div class="ui small image middle centered grid">
-                                    <img class="tiny image sixteen wide column" src="images/assomption_logo.png"/>
-                                </div>
-                                <hr/>
-                                <div class="content" style="padding: 1rem;">
-                                    <b>Lycée Jean-Marie de la Mennais</b>
-                                    <br/>
-                                    <i>Retiers - France</i>
-                                    <br/>
-                                    2010 - 2014
-                                    <br/>
-                                    <b>Baccalauréat scientifique spécialité mathématiques</b>
-                                </div>
-                            </div>
-                        </div>
-                </div>
+                <?php include("formation.php")?>
             </div>
         </div>
 

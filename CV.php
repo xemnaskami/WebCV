@@ -90,48 +90,7 @@
                 Expérience professionnelle
             </p>
             <div class="ui container">
-                <div class="ui card full-width">
-                    <div class="ui items">
-                        <div class="item">
-                            <div class="ui small image middle centered grid">
-                                <img class="tiny image sixteen wide column" src="images/smardtv_logo.png"/>
-                            </div>
-                            <hr/>
-                            <div class="content" style="padding: 1rem;">
-                                <b>SmarDTV</b>
-                                <br/>
-                                <b>Développement d'un driver HDMI-CEC</b>
-                                <br/>
-                                <i>Cesson-Sévigné - France</i>
-                                <br/>
-                                Avril - Août 2017
-                                <br/>
-                                C - Méthode Agile
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ui card full-width">
-                    <div class="ui items">
-                        <div class="item">
-                            <div class="ui small image middle centered grid">
-                                <img class="tiny image sixteen wide column" src="images/sfr_logo.jpg"/>
-                            </div>
-                            <hr/>
-                            <div class="content" style="padding: 1rem;">
-                                <b>SFR</b>
-                                <br/>
-                                <b>Développement d'un site web de gestion de données</b>
-                                <br/>
-                                <i>Rennes - France</i>
-                                <br/>
-                                Août - Décembre 2015
-                                <br/>
-                                Java - HTML / CSS / JavaScript - MySQL
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php include("professional_experiences.php")?>
             </div>
         </div>
         <div class="ui container center aligned">

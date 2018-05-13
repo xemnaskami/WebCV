@@ -75,7 +75,7 @@
                                 <hr/>
                                 <div class="content" style="padding: 1rem;">
                                     <b>Dublin City University</b>
-                                    <i> - Study abroad program (1 année)</i>
+                                    <i> - Study abroad program</i>
                                     <br/>
                                     <i>Dublin - Irlande</i>
                                     <br/>

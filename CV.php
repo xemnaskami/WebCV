@@ -66,7 +66,7 @@
                 Formation
             </p>
             <div class="ui container">
-                <?php include("formation.php") ?>
+                <?php include("php/formation.php") ?>
             </div>
         </div>
 
@@ -78,7 +78,7 @@
                 Compétences
             </p>
             <div class="content">
-                <?php include("skills.php") ?>
+                <?php include("php/skills.php") ?>
             </div>
         </div>
 
@@ -90,7 +90,7 @@
                 Expérience professionnelle
             </p>
             <div class="ui container">
-                <?php include("professional_experiences.php") ?>
+                <?php include("php/professional_experiences.php") ?>
             </div>
         </div>
         <div class="ui container center aligned">

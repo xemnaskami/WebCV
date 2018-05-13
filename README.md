@@ -2,7 +2,7 @@
 
 This is the source code of my personal Web Curriculaem Vitae
 
-#Dependancies
+# Dependancies
 
 All dependancies are included.
 

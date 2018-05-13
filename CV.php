@@ -57,42 +57,12 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis tempus quam, quis laoreet diam faucibus at. Duis eu neque at nibh ultricies rutrum ut sit amet lectus. Aenean quis nisl consectetur, sodales metus ut, tincidunt lectus. Nullam molestie quam fermentum leo hendrerit feugiat. Aenean non leo enim. Etiam neque purus, mollis id elit et, auctor posuere nunc. Morbi maximus gravida pharetra. Vestibulum sed faucibus nunc
             </p>
         </div>
-
         <hr/>
-
-        <div class="ui container">
-            <div id="formation"></div>
-            <p class="ui header center aligned">
-                Formation
-            </p>
-            <div class="ui container">
-                <?php include("php/formation.php") ?>
-            </div>
-        </div>
-
+        <?php include("php/formation.php") ?>
         <hr/>
-
-        <div class="ui container">
-            <div id="skills"></div>
-            <p class="ui header center aligned">
-                Compétences
-            </p>
-            <div class="content">
-                <?php include("php/skills.php") ?>
-            </div>
-        </div>
-
+        <?php include("php/skills.php") ?>
         <hr/>
-
-        <div class="ui container">
-            <div id="professional-experience"></div>
-            <p class="ui center aligned header">
-                Expérience professionnelle
-            </p>
-            <div class="ui container">
-                <?php include("php/professional_experiences.php") ?>
-            </div>
-        </div>
+        <?php include("php/professional_experiences.php") ?>
         <div class="ui container center aligned">
             <hr/>
             <p class="ui header">Contact</p>

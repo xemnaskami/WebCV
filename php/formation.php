@@ -39,7 +39,15 @@ $date";
     }
 
 ?>
+<div class="ui container">
+    <div id="formation"></div>
+    <p class="ui header center aligned">
+        Formation
+    </p>
+    <div class="ui container">
 
-<?php buildFormation("images/DCU_logo.jpg","Dublin City University", "Study abroad program", "Dublin - Irlande", "2017 - 2018", null)?>
-<?php buildFormation("images/Epitech_logo.jpg","Epitech", "École supérieure d'informatique", "Paris - France", "2014 - 2019", "Diplôme d'Expert en technologie de l'information - Niveau 1")?>
-<?php buildFormation("images/assomption_logo.png","Lycée Jean-Marie de la Mennais", null, "Retiers - France", "2010 - 2014", "Baccalauréat scientifique spécialité mathématiques")?>
+        <?php buildFormation("images/DCU_logo.jpg","Dublin City University", "Study abroad program", "Dublin - Irlande", "2017 - 2018", null)?>
+        <?php buildFormation("images/Epitech_logo.jpg","Epitech", "École supérieure d'informatique", "Paris - France", "2014 - 2019", "Diplôme d'Expert en technologie de l'information - Niveau 1")?>
+        <?php buildFormation("images/assomption_logo.png","Lycée Jean-Marie de la Mennais", null, "Retiers - France", "2010 - 2014", "Baccalauréat scientifique spécialité mathématiques")?>
+    </div>
+</div>

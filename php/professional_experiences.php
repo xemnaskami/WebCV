@@ -33,6 +33,13 @@ $technologies
 </div>";
 }
 ?>
-
-<?php buildProfessionalExperiences("images/smardtv_logo.png", "SmarDTV", "Développement d'un driver HDMI-CEC", "Cesson Sévigné - France","Avril - Août 2017", "C - Méthode Agile")?>
-<?php buildProfessionalExperiences("images/sfr_logo.jpg", "SFR", "Développement d'un site web de gestion de données", "Rennes - France", "Août - Décembre 2015", "Java - HTML / CSS / JavaScript - MySQL")?>
+<div class="ui container">
+    <div id="professional-experience"></div>
+        <p class="ui center aligned header">
+            Expérience professionnelle
+        </p>
+    <div class="ui container">
+        <?php buildProfessionalExperiences("images/smardtv_logo.png", "SmarDTV", "Développement d'un driver HDMI-CEC", "Cesson Sévigné - France","Avril - Août 2017", "C - Méthode Agile")?>
+        <?php buildProfessionalExperiences("images/sfr_logo.jpg", "SFR", "Développement d'un site web de gestion de données", "Rennes - France", "Août - Décembre 2015", "Java - HTML / CSS / JavaScript - MySQL")?>
+    </div>
+</div>

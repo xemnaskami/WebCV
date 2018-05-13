@@ -55,4 +55,27 @@
         <?php buildTableRow("images/uk.jpg", "English", "4")?>
     </tbody>
 </table>
+<table class="ui table">
+    <thead>
+        <tr>
+            <th colspan="2">
+                Autres compétences
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="one wide">
 
+            </td>
+            <td>
+                <div class="ui bulleted list">
+                    <div class="item">Git</div>
+                    <div class="item">Adaptabilité</div>
+                    <div class="item">Travail en groupe</div>
+                    <div class="item">Travail en autonomie</div>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

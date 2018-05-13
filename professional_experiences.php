@@ -28,9 +28,7 @@ $technologies
 </div>
 </div>
 </div>
-</div>
-    
-    ";
+</div>";
 }
 ?>
 

@@ -9,13 +9,14 @@
     function buildFormation($schoolLogo, $schoolName, $program, $location, $date, $diploma){
         echo "
 <div class=\"ui card full-width\">
+<div class='ui content'>
 <div class=\"ui items\">
 <div class=\"item\">
-<div class=\"ui small image middle centered grid\">
-<img class=\"tiny image sixteen wide column\" src=\"$schoolLogo\"/>
+<div class=\"ui tiny image middle centered \">
+<img class=\"tiny image \" src=\"$schoolLogo\"/>
 </div>
 <hr/>
-<div class=\"content\" style=\"padding: 1rem;\">
+<div class=\"content middle aligned\" style=\"padding: 1rem;\">
 <b>$schoolName</b>";
         if ($program){
             echo "<i> - $program</i>";
@@ -29,6 +30,7 @@ $date";
             echo "<br/><b>$diploma</b>";
         }
         echo "
+</div>
 </div>
 </div>
 </div>

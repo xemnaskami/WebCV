@@ -9,10 +9,11 @@
 function buildProfessionalExperiences($imgSource, $business, $goal, $location, $dates, $technologies){
     echo "
 <div class=\"ui card full-width\">
+<div class='ui content'>
 <div class=\"ui items\">
 <div class=\"item\">
-<div class=\"ui small image middle centered grid\">
-<img class=\"tiny image sixteen wide column\" src=\"$imgSource\"/>
+<div class=\"ui tiny image\">
+<img class=\"tiny image middle centered\" src=\"$imgSource\"/>
 </div>
 <hr/>
 <div class=\"content\" style=\"padding: 1rem;\">
@@ -25,6 +26,7 @@ function buildProfessionalExperiences($imgSource, $business, $goal, $location, $
 $dates
 <br/>
 $technologies
+</div>
 </div>
 </div>
 </div>
